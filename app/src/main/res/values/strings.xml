@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Udacity Portfolio</string>
+    <string name="action_settings">Settings</string>
+    <string name="app_buildItBigger">Built It Bigger</string>
+    <string name="app_capstone">Capstone</string>
+    <string name="app_libraryApp">Library</string>
+    <string name="app_scoresApp">Football Scores</string>
+    <string name="app_spotifyStreamer">Spotify Streamer</string>
+    <string name="app_xyzReader">XYZ Reader</string>
+    <string name="button_buildItBigger">Built It Bigger</string>
+    <string name="button_capstone">Capstone: My Own App</string>
+    <string name="button_libraryApp">Library App</string>
+    <string name="button_scoresApp">Scores App</string>
+    <string name="button_spotifyStreamer">Spotify Streamer</string>
+    <string name="button_xyzReader">XYZ Reader</string>
+</resources>

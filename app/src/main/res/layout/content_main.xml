@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.wyattbarnes.udacityproject.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <TextView
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="My Nanodegree Apps"
+        android:textColor="@color/header_textColor"
+        android:textSize="@dimen/header_textSize"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <LinearLayout
+        android:gravity="center_horizontal"
+        android:layout_width="@dimen/button_area_width"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/button_area_marginTop"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical">
+
+        <Button
+            android:background="@color/button_main"
+            android:id="@+id/button_spotifyStreamer"
+            android:layout_centerHorizontal="true"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:onClick="openApp"
+            android:tag="spotifyStreamer"
+            android:text="@string/button_spotifyStreamer"/>
+
+        <Button
+            android:background="@color/button_main"
+            android:id="@+id/button_scoresApp"
+            android:layout_centerHorizontal="true"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/button_marginTop"
+            android:layout_width="match_parent"
+            android:onClick="openApp"
+            android:tag="scoresApp"
+            android:text="@string/button_scoresApp" />
+
+        <Button
+            android:background="@color/button_main"
+            android:id="@+id/button_libraryApp"
+            android:layout_centerHorizontal="true"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/button_marginTop"
+            android:layout_width="match_parent"
+            android:onClick="openApp"
+            android:tag="libraryApp"
+            android:text="@string/button_libraryApp" />
+
+        <Button
+            android:background="@color/button_main"
+            android:id="@+id/button_buildItBigger"
+            android:layout_centerHorizontal="true"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/button_marginTop"
+            android:layout_width="match_parent"
+            android:onClick="openApp"
+            android:tag="buildItBigger"
+            android:text="@string/button_buildItBigger" />
+
+        <Button
+            android:background="@color/button_main"
+            android:id="@+id/button_xyzReader"
+            android:layout_centerHorizontal="true"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/button_marginTop"
+            android:layout_width="match_parent"
+            android:onClick="openApp"
+            android:tag="xyzReader"
+            android:text="@string/button_xyzReader" />
+
+        <Button
+            android:background="@color/button_capstone"
+            android:id="@+id/button_capstone"
+            android:layout_centerHorizontal="true"
+            android:layout_width="match_parent"
+            android:layout_marginTop="@dimen/button_marginTop"
+            android:layout_height="wrap_content"
+            android:onClick="openApp"
+            android:tag="capstone"
+            android:text="@string/button_capstone"/>
+
+    </LinearLayout>
+
+
+</RelativeLayout>
