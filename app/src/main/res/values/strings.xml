@@ -1,6 +1,9 @@
 <resources>
+    <!-- Main app strings -->
     <string name="app_name">Udacity Portfolio</string>
-    <string name="action_settings">Settings</string>
+    <string name="main_title">My Nanodegree Apps</string>
+
+    <!-- Linked app strings -->
     <string name="app_buildItBigger">Built It Bigger</string>
     <string name="app_capstone">Capstone</string>
     <string name="app_libraryApp">Library</string>
