@@ -20,18 +20,19 @@ public class MainActivity extends AppCompatActivity {
         setSupportActionBar(toolbar);
     }
 
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        return super.onOptionsItemSelected(item);
-    }
 
+    // TODO have the function actually open the selected app
+    /**
+     * Displays a toast describing the app that will be opened based on the view's tag.
+     *
+     * @param view
+     */
     public void openApp(View view) {
         Context context = getApplicationContext();
         int resId = getResources().getIdentifier("app_" + view.getTag().toString(), "string", getPackageName());
         String appName = getString(resId);
         CharSequence text = "This button will launch the '" + appName + "' app.";
         int duration = Toast.LENGTH_SHORT;
-
         Toast toast = Toast.makeText(context, text, duration);
         toast.show();
     }
